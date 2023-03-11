@@ -1,4 +1,4 @@
-# Tradingview webhooks server
+# Tradingview webhooks alerts listener (server)
 Simple webhook listener written on Flask for saving tradingview signals (or any other) to the SQLite database.
 
 ## How to run
