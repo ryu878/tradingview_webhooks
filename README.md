@@ -3,9 +3,14 @@ Simple webhook listener written on Flask for saving tradingview signals (or any 
 
 ## How to run
 First you need a server. I prefer using DigitalOcean. You can get 100$ rebate if use my referal link: https://m.do.co/c/3d7f6e57bc04
+
 Next you need to create keys:
 
 <code>openssl req -newkey rsa:2048 -nodes -keyout server.key -x509 -days 365 -out server.crt</code>
+
+Then install Flask:
+
+<code>pip install flask</code>
 
 
 ## Disclaimer
