@@ -12,6 +12,14 @@ Then install Flask:
 
 <code>pip install flask</code>
 
+Change setting in the config.py file and run the webhook_listener.py using the command
+
+<code>python3 webhook_listener.py</code>
+
+Note, that by default it run in debug mode. Feel free to change it on the last line in the code.
+
+This will run the webhook server. It will listen to any alerts that will come from your tradingview webhook (check their FAQ how to create them).
+And it wil save all of them to the SQLine database in the same folder.
 
 ## Disclaimer
 This project is for informational and educational purposes only. You should not use this information or any other material as legal, tax, investment, financial or other advice. Nothing contained here is a recommendation, endorsement or offer by me to buy or sell any securities or other financial instruments. If you intend to use real money, use it at your own risk. Under no circumstances will I be responsible or liable for any claims, damages, losses, expenses, costs or liabilities of any kind, including but not limited to direct or indirect damages for loss of profits.
